@@ -7,7 +7,7 @@ class schedule{
     public:
     void time()
     {
-        this_thread::sleep_for(chrono::milliseconds(30000));
+        this_thread::sleep_for(chrono::milliseconds(60000));
     }
 };
 int main(){
